@@ -22,6 +22,8 @@ export default function Board() {
     setSquares(nextSquares);
     setXIsNext(!xIsNext);
   }
+  const comment = new Comment("PandiKumar");
+  console.log(comment);
 
   function resetGame() {
     setSquares(Array(9).fill(null));
